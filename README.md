@@ -16,7 +16,7 @@ djangorestframework-simplejwt==5.2.2
 ```
 
 ### Starting
-1. ``` % python -m venv venv ```
+1. ```  % python -m venv venv ```
 2. ```  % . venv/bin/activate ```
 3. ```  %(venv) pip install -r requirements.txt ```
 4. ```  %(venv) python manage.py runserver --settings=base_project.settings.local ```
