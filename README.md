@@ -9,14 +9,16 @@
 - macOS 13.1
 
 ## Requirements
+```
 Django==4.1.6
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
+```
 
 ### Starting
-1. ```zsh % python -m venv venv ```
-2. ```zsh % . venv/bin/activate ```
-3. ```zsh %(venv) pip install -r requirements.txt ```
-4. ```zsh %(venv) python manage.py runserver --settings=base_project.settings.local
+1. ``` % python -m venv venv ```
+2. ```  % . venv/bin/activate ```
+3. ```  %(venv) pip install -r requirements.txt ```
+4. ```  %(venv) python manage.py runserver --settings=base_project.settings.local ```
 
 ... writing ...
